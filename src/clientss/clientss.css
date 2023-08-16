@@ -1,0 +1,94 @@
+.clients {
+  width: 900px;
+  height: 500px;
+  background-color: rgb(235, 232, 232);
+  display: flex;
+
+  border-radius: 40px;
+  overflow: hidden;
+}
+.clients__title {
+  color: #fff;
+  margin: 0 auto;
+}
+
+.clients__clients {
+  display: flex;
+}
+.clients__photo {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.clients__photo img {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 80px;
+  border-radius: 20px;
+  left: 150px;
+}
+.clients__info {
+  box-sizing: border-box;
+  padding: 30px;
+  padding-left: 110px;
+  width: 500px;
+  height: 350px;
+}
+.clients__choise {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.clients__click {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 25px;
+  background-color: rgb(87, 86, 86);
+  transition: all 1s;
+}
+.clients__click:hover {
+  background-color: #e6a527;
+}
+.clients__click.active {
+  background-color: rgb(196, 27, 27);
+}
+.clients__name {
+  font-weight: 600;
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 35px;
+  color: #e6a527;
+}
+.clients__spec {
+  color: #e6a527;
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+.clients__spec span {
+  font-size: 16px;
+  color: rgb(15, 16, 16);
+}
+.clients__stash span {
+  font-size: 16px;
+  color: rgb(15, 16, 16);
+}
+.clients__stash h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 36px;
+  color: #e6a527;
+  margin-bottom: 3;
+}
+.clients__zvezda {
+  color: #e6a527;
+  font-size: 30px;
+  margin: 50px;
+}

@@ -1,0 +1,57 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 30px;
+  align-items: center;
+}
+.top__contact {
+  display: flex;
+  padding-top: 15px;
+}
+.top__bottons {
+  display: flex;
+  flex-direction: column;
+}
+.botton {
+  color: #343434;
+  padding: 5px 10px;
+  font-size: 18px;
+  line-height: 18px;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 200;
+  border: none;
+  margin-bottom: 28px;
+  font-weight: 100;
+  transition: all 1s;
+  cursor: pointer;
+  font-family: OpenSansRegular;
+}
+.top__botton:hover {
+  background-color: #8d7a7a;
+}
+.top__img {
+  display: block;
+  margin-top: 20px;
+  width: 70px;
+}
+.top__number {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: openSansSemiBold;
+}
+.top__info {
+  font-size: 13px;
+  margin: 5px 0 10px 0;
+  color: #4c4c4c;
+}
+.top__email {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+.top__where {
+  font-size: 22px;
+  font-weight: 200;
+}
+.top__since {
+}

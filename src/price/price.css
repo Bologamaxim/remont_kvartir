@@ -1,0 +1,30 @@
+.price {
+  margin: 0 auto;
+  width: 1000px;
+}
+.price__all {
+  margin: 80px 0;
+}
+.price__title {
+  text-align: center;
+  margin: 80px;
+}
+.price__descr {
+  margin: 100px 50px 100px 50px;
+}
+.price__el {
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr;
+  height: 40px;
+}
+.price__name {
+  color: #676662;
+  font-size: 20px;
+}
+.price__btns {
+  display: flex;
+  justify-content: space-between;
+}
+.price__botton {
+  width: 120px;
+}

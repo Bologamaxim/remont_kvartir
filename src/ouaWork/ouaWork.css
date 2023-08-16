@@ -1,0 +1,27 @@
+.works {
+  display: flex;
+  border: 2px solid black;
+  width: 80%;
+  margin: 0 auto;
+}
+.works__text {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+.works__elements {
+  background-color: black;
+}
+.works__el {
+  color: #fff;
+  font-size: 25px;
+  border: 1px solid #fff;
+  padding: 10px;
+  cursor: pointer;
+  &:hover {
+    color: rgb(145, 133, 133);
+  }
+}
+.works__list li {
+  font-size: 18px;
+}
